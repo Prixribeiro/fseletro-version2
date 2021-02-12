@@ -1,0 +1,23 @@
+.contatos{
+    vertical-align: bottom;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(231, 156, 193);
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+
+.wpp {
+    border: 40px;
+    padding: 20px;
+    width: 140px;
+}
+
+.email {
+    border: 40px;
+    padding: 20px;
+    width: 100px;
+}

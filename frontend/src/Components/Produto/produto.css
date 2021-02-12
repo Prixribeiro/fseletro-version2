@@ -1,0 +1,39 @@
+figure>img{
+    width:200px;
+    height: 250px;
+    border-style:solid;
+}
+
+figcaption{
+    position: relative;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 12pt;
+    font-weight: bolder;
+    padding: 5px;
+    width: 200px;
+    background-color: rgba(152, 137, 206, 0.815);
+    top: -50;
+    color:white;
+}
+
+figcaption>p{
+    margin: 0;
+    padding: 0;
+}
+
+.preco-antigo{
+    text-decoration: line-through;
+    font-size: 8pt;
+    color: red;
+}
+
+.preco-atual{
+    color: black;
+    font-size: 12pt;
+}
+
+.Estoque{
+    color: rgb(37, 77, 37);
+    font-size: 8pt;
+}

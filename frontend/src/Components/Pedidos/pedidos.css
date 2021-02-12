@@ -1,0 +1,17 @@
+
+.img-responsive{
+    width: 120px;
+    height: 180px;
+}
+
+.descritivo{
+font-size: 12px;
+width: 25%;
+padding: 20pt;
+}
+
+.table{
+    width: 100%;
+    border: 0;
+    padding: 0;
+}

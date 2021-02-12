@@ -1,0 +1,14 @@
+.nav-item{
+    display: flex;
+    justify-content: center;
+}
+
+.active{
+    border-bottom: 2px solid white;
+}
+img{
+    width: 80px;
+}
+.navbar{
+    background-color: rgba(152, 137, 206, 0.815);
+}

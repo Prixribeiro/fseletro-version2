@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Container, Jumbotron} from 'react-bootstrap';
 import Lista from '../Components/Home/lista';
 
-export default class Home extends Component {
-    render() {
+
+export default function Home (){
+    
         return (
         <Jumbotron fluid className="text-center bg-white">
             <Container fluid>
@@ -12,10 +13,11 @@ export default class Home extends Component {
                     <p className="lead">Aqui em nossa loja, <b>programadores tem desconto </b> nos produtos para sua casa!</p>  
                     <br></br>
                      {/* Lista está sendo renderizada em SSR */}
-                    <Lista />           
+                    <Lista /> 
+                             
             </Container>
         </Jumbotron>
 
         ); 
-    }
+    
 }

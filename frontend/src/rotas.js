@@ -3,7 +3,7 @@ import Produtos from './Pages/Produtos';
 import Pedidos from './Pages/Pedidos';
 import Lojas from './Pages/Lojas';
 import Contato from './Pages/Contato';
-import Home from './Pages/Home';
+import Home from './Pages/index';
 
 
 

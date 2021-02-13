@@ -1,21 +1,22 @@
 import React from 'react';
+import {Container, Jumbotron} from 'react-bootstrap';
+import Lista from '../Components/Home/lista';
 
-export default function Home(){
-    return (
-        <div>
-            <h2> Seja Bem-vindx!</h2>
-            
-            <p>Aqui em nossa loja, <b>programadores tem desconto </b> nos produtos para sua casa!</p>  
-            <br></br>
 
-            <h3>O que você procura hoje?</h3>
-            <li>
-                <ul>Fogões</ul>
-                <ul>Geladeiras</ul>
-                <ul>Lava Louças</ul>
-                <ul>Máquinas de Lavar</ul>
-                <ul>Microondas</ul>
-            </li>
-        </div>
-    )
+export default function Home (){
+        return (
+        <>        
+        <Jumbotron fluid className="text-center bg-white">
+            <Container fluid>
+                    <h2 className="display-6"> Seja Bem-vindx!</h2>
+                    <hr className="my-4"></hr>
+                    <p className="lead">Aqui em nossa loja, <b>programadores tem desconto </b> nos produtos para sua casa!</p>  
+                    <br></br>
+                     {/* Lista está sendo renderizada em SSR */}
+                    <Lista /> 
+                             
+            </Container>
+        </Jumbotron>
+        </>
+        ) 
 }
